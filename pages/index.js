@@ -50,7 +50,7 @@ const Home = () => {
             
           </div>
     <div>
-    <p>Paste your soldity code down below and the AI will give you a list of vulnerabilities with their consequences.
+    <p>Paste your solidity code down below and the AI will give you a list of vulnerabilities with their consequences.
       Note: Generate a few times to make sure you squash all the bugs 🪲 Disclaimer: This tool is in beta and should not be a source of actual auditing. Use at own risk 💀
     </p>
 
