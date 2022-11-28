@@ -80,7 +80,7 @@ body {
 
 .prompt-box {
     border-bottom-width: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color: rgb(228, 32, 195);
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
@@ -127,7 +127,7 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 12px;
@@ -165,6 +165,10 @@ textarea {
     transform: none;
 }
 
+
+.audityone{
+    color: rgb(228, 32, 195);;
+}
 .or p {
     color: rgba(255, 255, 255, 0.25)
 }
@@ -172,7 +176,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(228, 32, 195);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
