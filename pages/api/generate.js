@@ -5,7 +5,7 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-const basePromptPrefix = "Give me an opinion on the following topic:";
+const basePromptPrefix = "Does the following solidity smart contract have a vulnerability? If yes, please list them all, and their consequences:";
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)

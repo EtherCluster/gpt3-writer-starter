@@ -41,10 +41,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Get a second opinion</h1>
+            <h1>Smart Contract Auditor</h1>
           </div>
           <div className="header-subtitle">
-            <h2>An AI that will give you a second opinion on a topic</h2>
+            <h2>Find vulnerabilities in your Smart Contracts</h2>
           </div>
     
         </div>
@@ -52,7 +52,7 @@ const Home = () => {
         <div className="prompt-container">
         <textarea
   className="prompt-box"
-  placeholder="ex. free education"
+  placeholder="Paste your Smart Contract below"
   value={userInput}
   onChange={onUserChangedText}
 />;
