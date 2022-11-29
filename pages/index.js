@@ -58,7 +58,7 @@ const Home = () => {
            
           </div>
           {/* <ReactPlayer url={tutvid} /> */}
-          <video width="400" height="300" controls src="audityone.mp4">
+          <video width="400" height="300" controls muted src="audityone.mp4">
   
 </video>
 
