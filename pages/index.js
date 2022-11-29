@@ -1,8 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Video from 'next'
+import source from 'next'
 import buildspaceLogo from '../assets/buildspace-logo.png';
+import audityman from '../assets/audity.png'
+// import tutvid from '../assets/audityone.mp4'
 import { useState } from 'react';
-
+import ReactPlayer from 'react-player'
 
 
 
@@ -40,15 +44,25 @@ const Home = () => {
     <div className="root">
       <div className="container">
         <div className="header">
-          <div>   <h3 className='audityone'>Audity One</h3></div>
+          
+       
+
+
+          <div className="Auditymandiv">  <Image src={audityman} alt="Audity One Logo" />  <h3 className='audityone'>Audity One</h3></div>
           <div className="header-title">
          
             <h1>Smart Contract Auditor </h1>
           </div>
           <div className="header-subtitle">
             <h2>Find vulnerabilities in your Smart Contracts</h2>
-            
+           
           </div>
+          {/* <ReactPlayer url={tutvid} /> */}
+          <video width="400" height="300" controls src="audityone.mp4">
+  
+</video>
+
+
     <div>
     <p>Paste your solidity code down below and the AI will give you a list of vulnerabilities with their consequences.
       Note: Generate a few times to make sure you squash all the bugs 🪲 Disclaimer: This tool is in beta and should not be a source of actual auditing. Use at own risk 💀
@@ -63,7 +77,7 @@ const Home = () => {
   placeholder="Paste your Smart Contract below"
   value={userInput}
   onChange={onUserChangedText}
-/>;
+/>
 <div className="prompt-buttons">
   <a
     className={isGenerating ? 'generate-button loading' : 'generate-button'}
