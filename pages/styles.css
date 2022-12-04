@@ -80,6 +80,19 @@ body {
     width: min-content;
 }
 
+.prompt-container-don {
+    text-align: center;
+    place-content: flex-end center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+
+    height: min-content;
+    padding: 0px;
+ 
+}
+
 .prompt-box {
     border-bottom-width: 1px;
     border-color: #8cffe8;
@@ -395,7 +408,9 @@ textarea {
         width: 100%;
     }
 }
-
+.donate{
+    color: white;
+}
 
 
  /* Loading ring animation */
